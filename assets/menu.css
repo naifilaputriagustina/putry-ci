@@ -1,0 +1,12 @@
+.menu {
+    background-color: rgb(31, 138, 63);
+    height: 30px;
+    padding: 10px;
+    width: 300%;
+}
+.menu a {
+    background-color: rgb(17, 16, 16);
+    text-decoration: none;
+    padding: 5px;
+    color: aliceblue;
+}

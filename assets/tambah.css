@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans';
+    color: #183b2e;
+    text-align: center;
+}
+.ssw{
+    text-align: center;
+    margin-right: 25%;
+}
+.ssw input[type=text] {
+    margin-left: 32%;
+    padding: 6px 7px;
+    width: 35%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(109, 230, 100);
+    cursor: pointer;
+}
+.ssw select[type=text]{
+    margin-bottom: 10px;
+    margin-left: 32%;
+    padding: 6px 7px;
+    width: 36%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(109, 230, 100);
+    cursor: pointer;
+}
+.ssw input[type=submit]{
+    margin-left: 32%;
+    padding: 8px 7px;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    background-color: #183b2e;
+    color: whitesmoke;
+    cursor: pointer;
+}
