@@ -11,9 +11,15 @@
     
 
     <h1>Halaman Admin</h1>
+    <div class="content-main">
+    <div class="main-header">
+    <div class="column-main">
     
-    <h5>Tabel Data Siswa</h5>
-    <a href="<?php echo base_url ('tambah_siswa'); ?>">tambah siswa</a>
+         <h5>Tabel Data Siswa</h5>
+</div>
+    <a href="<?php echo base_url ('tambah_siswa'); ?>" class="tombol">TAMBAH DATA</a>
+    </div>
+    <div class="main-content">
         <table border =1 cellspacing= 0>
 
         <tr>
@@ -36,7 +42,10 @@
             </tr>
             <?php endforeach; ?>
         </table>
-       
+        </div>
+</div>
+</div>
+
 
 </body>
 </html>
