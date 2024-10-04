@@ -5,11 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    * {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
 
+} 
+table{
+  width: 75%;
+}
 
+td, th {
+
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+ tr:nth-child(even){background-color: #f2f2f2;}
+  
+ tr:hover {background-color: #ddd;}
+  
+ th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    background-color: #e2c380;
+    color: white;
+  }
+</style>
 <body>
-    
-
     <h1>Halaman Admin</h1>
     <div class="content-main">
     <div class="main-header">

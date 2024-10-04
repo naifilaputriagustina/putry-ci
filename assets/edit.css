@@ -1,12 +1,4 @@
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans';
-    color: #183b2e;
-}
-.tambah{
-
-    margin-right: 25%;
-}
-.tambah input[type=text] {
+.edit[type=hidden] {
     margin-left: 32%;
     padding: 6px 7px;
     width: 35%;
@@ -15,7 +7,7 @@ h1{
     background-color: rgb(109, 230, 100);
     cursor: pointer;
 }
-.tambah select[type=text]{
+.edit[type=text]{
     margin-bottom: 10px;
     margin-left: 32%;
     padding: 6px 7px;
@@ -25,7 +17,7 @@ h1{
     background-color: rgb(109, 230, 100);
     cursor: pointer;
 }
-.tambah input[type=submit]{
+.edit[type=submit]{
     margin-left: 32%;
     padding: 8px 7px;
     width: 20%;

@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/login.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/admin.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/menu.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/tambah.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/edit.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/daftar.css')?>">
     <title>Document</title>
 </head>
 <body>

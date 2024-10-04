@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Halaman Login</h1>
+    <div class="hl">
     <?= $this->session->flashdata('message'); ?>
     <br>
     <form action="<?= base_url() ?>login/verifikasi" method="POST">
@@ -15,9 +16,8 @@
     <input type="password" placeholder="masukkan password"  name="password">
     <br> <br>
     <input type="submit" value="LOGIN">
-    
-
     </form>
+    </div>
 
 
-    <p>Belum Punya Akun ? <a href="<?= base_url() ?>daftar">Daftar</a></p>
+    <p class="dftr">Belum Punya Akun ? <a class="tdftr" href="<?= base_url() ?>daftar">Daftar</a></p>
