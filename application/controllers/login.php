@@ -16,7 +16,7 @@ class Login extends CI_Controller {
 	$password = $this->input->post('password');
 	$user = $this->db->get_where('user', ['username' => $username])->row_array();
 	if ($user) {
-	if ($password == $user['password']) {
+	if (password_verify ($password, $user['password'])) {
 	$data = [
 		'username' => $user['username']
 	];

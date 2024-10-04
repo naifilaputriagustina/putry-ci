@@ -5,7 +5,9 @@ class tambah_siswa extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('tambah_siswa');	
+		$data['alamat'] = $this->db->get('alamat')->result_array();
+
+		$this->load->view('tambah_siswa', $data);	
 	}
 
 	public function tambah() 

@@ -27,7 +27,8 @@ class admin extends CI_Controller {
 	public function edit($nis) {
 		$this->load->model('siswa_model');
 		$data['edit'] = $this->siswa_model->getsiswaByNis($nis);
-		$data['alamat'] = ['batang', 'pekalongan', 'pemalang', 'tegal'];
+		$data['alamat'] = [1, 2, 3, 4,];
+
 
 		$this->load->view('templete/header');
 		$this->load->view('edit_siswa', $data );
@@ -38,7 +39,7 @@ class admin extends CI_Controller {
 		$data =
 		[
 		"nama" => $this->input->post('nama', true),
-		"alamat" => $this->input->post('alamat', true),
+		"id_alamat" => $this->input->post('alamat', true),
 		"no_telp" => $this->input->post('no_telp', true)
 
 		];
