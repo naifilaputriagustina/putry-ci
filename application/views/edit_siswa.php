@@ -45,19 +45,15 @@ h1{
     <table border =1 cellspacing= 0>
         <div class="edit">
     <form action="<?= base_url() ?>admin/update" method="post" >
-        <input type="hidden" name=" masukkan nis" value="<?= $edit['nis']?>">
+        <input type="hidden" name="nis" value="<?= $edit['nis']?>">
          <br> <br>
         <input placeholder="masukan nama" type="text" name="nama" value="<?= $edit ['nama'] ?>">
          <br> <br>
         <select name="alamat">
         <option value="">--pilih alamat--</option>
         <?php foreach($alamat as $al) : ?>
-            <?php if($al == $edit['id_alamat']) : ?>
-                <option value="<?= $al; ?>" selected><?= $al; ?></option>
-                <?php else: ?>
-                    <option value="<?= $al; ?>"><?= $al; ?></option>
-            <?php endif; ?>
-        <?php endforeach; ?>
+            <option value=" <?= $al['id'] ?>"><?= $al['alamat'] ?> </option>
+            <?php endforeach; ?>
         </select>
          <br> <br>
         <input placeholder="masukan no telp" type="text"  name="no_telp" value="<?= $edit ['no_telp'] ?>"> 

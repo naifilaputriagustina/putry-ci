@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
-    * {
+* {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
 
 } 
+h5{
+    font-size: 17px;
+}
 table{
   width: 75%;
 }

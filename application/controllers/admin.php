@@ -24,11 +24,11 @@ class admin extends CI_Controller {
 		$this->db->delete('siswa', ['nis' => $nis]); 
 		redirect('admin');
 	}
-	public function edit($nis) {
+	public function edit($nis) 
+	{
 		$this->load->model('siswa_model');
 		$data['edit'] = $this->siswa_model->getsiswaByNis($nis);
-		$data['alamat'] = [1, 2, 3, 4,];
-
+		$data['alamat'] = $this->db->get('alamat')->result_array();
 
 		$this->load->view('templete/header');
 		$this->load->view('edit_siswa', $data );
